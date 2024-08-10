@@ -24,7 +24,7 @@ function Hero() {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
+              className="pb-16 text-4xl font-thin tracking-tight mt-8 lg:mt-16 lg:text-6xl text-center lg:text-left"
             >
               Saurabh Prajapati
             </motion.h1>
@@ -32,7 +32,7 @@ function Hero() {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className=" bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent text-center lg:text-left"
             >
               Frontend Developer
             </motion.span>
@@ -40,7 +40,7 @@ function Hero() {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className=" my-2 max-w-xl py-6  font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter text-center lg:text-left"
             >
               {HERO_CONTENT}
             </motion.p>
