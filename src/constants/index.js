@@ -55,7 +55,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A responsive image gallery developed with React.js and TailwindCSS, utilizing an API to fetch images. The gallery features a search bar at the top, allowing users to find specific images by name. Designed for optimal viewing across all devices.",
-    url: "https://image-gallery-zeta-five.vercel.app/",
+    url: "https://react-image-gallery-eosin.vercel.app/",
   },
 ];
 
