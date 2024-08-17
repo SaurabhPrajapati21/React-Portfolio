@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.webp";
+import project3 from "../assets/projects/project-3.jpeg";
 
 
 export const HERO_CONTENT = `Passionate frontend developer with strong skills in React, Bootstrap, and Tailwind. Experienced in designing and implementing responsive, user-friendly web applications. Dedicated to delivering high-quality, visually appealing digital experiences. Adept at collaborating with teams to bring creative ideas to life. Eager to contribute technical expertise and design acumen to a forward-thinking development team.`;
@@ -48,6 +49,13 @@ export const PROJECTS = [
     description:
       "A Salesforce website clone created using HTML and CSS, and fully responsive, ensures that the layout and design adapt seamlessly to various screen sizes and devices, providing an optimal user experience across different platforms.",
     url: "https://saurabhprajapati21.github.io/Salesforce-clone/",
+  },
+  {
+    title: "Image-Gallery",
+    image: project3,
+    description:
+      "A responsive image gallery developed with React.js and TailwindCSS, utilizing an API to fetch images. The gallery features a search bar at the top, allowing users to find specific images by name. Designed for optimal viewing across all devices.",
+    url: "https://image-gallery-zeta-five.vercel.app/",
   },
 ];
 
