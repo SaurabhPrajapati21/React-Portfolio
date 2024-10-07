@@ -33,11 +33,19 @@ function Education() {
               transition={{ duration: 1 }}
               className=" w-full max-w-xl lg:w-3/4"
             >
-              <h6 className=" mb-2 font-semibold">
-                {education.degree} :
-                <span className=" mx-1 ">{education.college}</span>
+              <h6 className="mb-2 font-semibold">
+                <a
+                  href={education.pdfLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {education.degree}
+                </a>
+                :<span className="mx-1">{education.college}</span>
               </h6>
 
+
+              
               <p className=" mb-4 text-neutral-400 ">{education.description}</p>
             </motion.div>
           </div>

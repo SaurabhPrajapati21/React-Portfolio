@@ -14,18 +14,21 @@ export const EDUCATION = [
     college: "CBSE",
     description: `I successfully completed my 10th-grade SSC exams under the CBSE board, achieving a 72% score.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    pdfLink: "/SAURABH P TENTH M.pdf",
   },
   {
     year: "2018 - 2020",
     degree: "HSC  (12th-board) ",
     college: "Maharashtra-Board",
     description: `I successfully completed my 12th-grade HSC exams under the Maharashtra board with PCMB group, achieving a 62% score.`,
+    pdfLink: "/SAURABH P HSC.pdf",
   },
   {
     year: "2020 - 2023",
     degree: "BSc  (Bachelor of Science)",
     college: "RTMNU-University",
     description: `I graduated with a Bachelor of Science (BSc) degree from RTMNU University in 2023, achieving a 73% score.`,
+    pdfLink: "/SAURABH P SIXTH SEM (1).pdf",
   },
   {
     year: "2024 - Pursuing",
