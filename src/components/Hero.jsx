@@ -40,7 +40,7 @@ function Hero() {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              href="/CV SAURABH PRAJAPATI.pdf" 
+              href="/SAURABH PRAJAPATI CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Download my CV"
